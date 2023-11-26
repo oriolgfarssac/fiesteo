@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: url('../../public_assets/Fredoka/static/Fredoka-Regular.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #38233B;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.pSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fSection,
+.sSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.fSection {
+    justify-content: center;
+    height: 35%;
+}
+
+.sSection {
+    height: 65%;
+}
+
+.title,
+.description {
+    color: white;
+}
+
+.description {
+    text-align: center;
+    font-size: 22px;
+}
+
+.button{
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
